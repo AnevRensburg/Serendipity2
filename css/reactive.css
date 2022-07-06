@@ -1,0 +1,332 @@
+/* Media Queries */
+
+
+
+
+
+/* Products Page */
+
+
+
+
+/* 
+@media (max-width: 1375px){
+    #products {
+        margin: 0 12%; 
+    }
+}
+
+
+@media (max-width:1225px){
+    #products {
+        margin: 0 5%;
+    }
+}
+
+@media (max-width:1000px){
+    #products {
+        margin: 0 4%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1375px){
+    .container-fluid {
+        padding: 100px 12% 75px; 
+    }
+    .contact-p {
+        padding-left: 12%; 
+        padding-right: 12%; 
+    }
+    .content-page {
+        padding: 0 12%; 
+    }
+    #order{
+        padding: 75px 2% 75px 10%;
+    }
+    .map1{
+        margin-left: 8%;
+    }
+    .welcome-img{
+        right: 8%;
+    }
+    .features{
+        padding: 100px 12% 0; 
+    }
+    .review-preview{
+        padding: 100px 12% 75px; 
+    }
+    .about-preview {
+        padding: 75px 12%;
+    }
+}
+
+
+@media (max-width:1250px){
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .map1{
+        margin-left: 6%;
+    }
+    .features{
+        padding: 100px 10% 0; 
+    }
+    .about-preview {
+        padding: 75px 9%;
+    }
+}
+
+
+  
+@media (max-width: 1225px){
+    .container-fluid {
+        padding: 100px 10% 75px; 
+    }
+    .brand-pic{
+        margin-bottom: 35px;
+    }
+    .contact-p {
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+    .content-page {
+        padding: 0 11%; 
+    }
+    #order{
+        padding: 75px 2% 75px 8%;
+    }
+    .contact-form{
+        width: 350px;
+    }
+
+    .logo{
+        left: 130px;
+    }
+    .welcome-img{
+        display: none;
+    }
+    .welcome-box{
+        margin-left: 12%;
+    }
+    .review-preview{
+        padding: 100px 11% 75px; 
+    }
+} 
+
+
+@media (max-width:1150px){
+    .about-preview {
+        padding: 75px 7%;
+    }
+    .about-pre-img {  
+        max-width: 350px;
+    }
+}
+
+
+@media (max-width: 1140px){
+    .map1{
+        display: none;
+    } 
+    .map2 {
+        display: inline-block;
+    }
+    .logo{
+        left: 100px;
+    }
+} 
+
+
+
+@media (max-width:1050px){
+    .map2 {
+        display: none;
+    }
+    .logo{
+        left: 50px;
+        width: 300px;
+    }
+    .contact-form{
+        width: 500px;
+    }
+    #order{
+        padding: 75px 2% 50px 10%;
+    }
+    .brand-pic{
+        top: 50px;
+    }
+}
+
+
+
+@media (max-width:1000px){
+    .logo{
+        display: none;
+    }
+    #order{
+        padding: 50px 12%;
+    }
+    .content-page {
+        margin-top: 25px;
+        padding: 0 10%; 
+    }
+    .contact-p {
+        padding-left: 12%; 
+        padding-right: 12%; 
+    }
+    .contact-box{
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .review-preview{
+        padding: 100px 10% 75px; 
+    }
+    .contact-preview{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+@media (max-width:991px){
+    .reviews{
+        padding: 0 8%;
+    }
+    .features{
+        padding: 100px 20% 0; 
+    }
+    .review-preview{
+        padding: 100px 20% 75px; 
+    }
+}
+
+
+@media (max-width:850px) {
+    .welcome-box{
+        margin: 50px 8% 0px;
+    }
+    .slogan-text{
+        font-size: 4rem;
+    }
+    .features{
+        padding: 75px 15% 25px; 
+    }
+    .feature-box {
+        padding-bottom: 50px;
+    }
+    .features-icon {
+        margin-bottom: 20px;
+    }
+    .review-preview{
+        padding: 75px 15% 75px; 
+    }
+
+    .about-preview {
+        padding: 75px 7%;
+    }
+    .about-pre-img {  
+        display: none;
+    }
+    .about-pre-img2 {  
+        display: inline-block;
+    }
+    .logo2{
+        display: inline-block;
+    }
+}
+
+
+
+@media (max-width:640px){
+    .contact-form{
+        width: auto;
+    }
+    .container-fluid {
+        padding: 100px 7% 75px; 
+    }
+    .content-page {
+        padding: 0 7%; 
+    }
+    .contact-p {
+        padding-left: 7%; 
+        padding-right: 7%; 
+    }
+    #order{
+        padding: 50px 7%;
+    }
+    input[type=text], input[type=tel], input[type=email], select {
+        width: 80%;
+      }
+    .about-img{
+      display: none;
+    }
+    .about-img2{
+        display: inline-block;
+    }
+    .features{
+        padding: 75px 10% 25px; 
+    }
+    .review-preview{
+        padding: 75px 7% 75px; 
+    }
+}
+
+
+
+
+@media (max-width:550px) {
+
+    .about-link1{
+        padding-top: 1em;
+        display: block;
+        padding-bottom: 1em;
+    } 
+    
+    .about-link2 {
+        display: block;
+        padding-top: 1em;
+        padding-left: 0;
+    }
+    .brand-pic{
+        display: none;
+    }
+    .nav-brand{
+        display: inline;
+    }
+    .navbar {
+        padding-top: 8%;
+    
+    }
+    .about-pre-img2 {  
+        max-width: 90%;
+        margin: 75px 5% 0;
+    }
+    .welcome-box{
+        text-align: center;
+        margin: 20px 3% 0px;
+    }
+    .slogan-text{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+    .welcome-img2{
+        display: inline-block;
+    }
+    .logo2{
+        width: 90%;
+        margin: 75px 5% 0;
+    }
+}
