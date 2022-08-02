@@ -221,12 +221,10 @@
     .about-img{
         margin-top: 70px;
     }
-    
-    .about-links-box{
-        padding: 5px 0;
-    }
+
 
 }
+
 
 
 @media (max-width:850px) {
@@ -253,6 +251,15 @@
     }
     .about-text-box{
         margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width:800px){
+
+    .product-head{
+        max-width: 100%;
+        margin-bottom: 50px;
     }
 }
 
@@ -285,10 +292,17 @@
         padding: 75px 7% 75px; 
     }
     .about-content{
-        padding: 0 10% 0 10%;
+        padding: 30px 10% 0 10%;
     }
     .about-img{
         max-width: 100%;
+    }
+    #products {
+        text-align: center;
+        padding: 30px 5% 0;
+    }
+    .product-description{
+        margin-left: 0;
     }
 }
 

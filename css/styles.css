@@ -261,7 +261,7 @@ h1, h2, h3 {
 }
 
 .about-links-box{
-    padding: 5px;
+    padding: 5px 0;
 }
 
 
@@ -281,23 +281,22 @@ h1, h2, h3 {
 
 .product-row{
     text-align: center;
-    vertical-align: top;
     padding: 0 auto;
-    margin-bottom: 175px; 
+    margin-bottom: 100px; 
 }
 
 .product-img{
     max-width: 250px;
     max-height: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
 }
 
-
 .image-container{
+    border: 5px solid #53c1d1;
     display: inline-block;
-    vertical-align: top;
-    width: 250px;
-    height: 350px;
+    width: 280px;
+    height: 380px;
+    margin-bottom: 50px;
 }
 
 .product-description{
