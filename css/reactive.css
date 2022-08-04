@@ -1,57 +1,12 @@
 /* Media Queries */
 
 
-
-
-
-/* Products Page */
-
-
-
-
-/* 
 @media (max-width: 1375px){
-    #products {
-        margin: 0 12%; 
-    }
-}
-
-
-@media (max-width:1225px){
-    #products {
-        margin: 0 5%;
-    }
-}
-
-@media (max-width:1000px){
-    #products {
-        margin: 0 4%;
-    }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1375px){
-    .container-fluid {
-        padding: 100px 12% 75px; 
-    }
-    .contact-p {
+    .contact-box {
         padding-left: 12%; 
         padding-right: 12%; 
     }
-    .content-page {
+    .reviews-content {
         padding: 0 12%; 
     }
     #order{
@@ -66,9 +21,7 @@
     .features{
         padding: 100px 12% 0; 
     }
-    .review-preview{
-        padding: 100px 12% 75px; 
-    }
+
 }
 
 
@@ -87,17 +40,14 @@
 
   
 @media (max-width: 1225px){
-    .container-fluid {
-        padding: 100px 10% 75px; 
-    }
     .brand-pic{
         margin-bottom: 35px;
     }
-    .contact-p {
+    .contact-box {
         padding-left: 10%; 
         padding-right: 10%; 
     }
-    .content-page {
+    .reviews-content {
         padding: 0 11%; 
     }
     #order{
@@ -106,21 +56,20 @@
     .contact-form{
         width: 350px;
     }
-
     .logo{
         left: 130px;
     }
     .welcome-img{
         display: none;
     }
-    .welcome-box{
-        margin-left: 12%;
-    }
-    .review-preview{
-        padding: 100px 11% 75px; 
+    .land-section{
+        padding-left: 12%;
     }
     .about-content{
         padding: 0 15%;
+    }
+    .slogan-text{
+        padding: 0px 0 50px;
     }
 } 
 
@@ -170,38 +119,26 @@
     #order{
         padding: 50px 12%;
     }
-    .content-page {
+    .reviews-content {
         margin-top: 25px;
         padding: 0 10%; 
     }
-    .contact-p {
+    .contact-box {
         padding-left: 12%; 
         padding-right: 12%; 
-    }
-    .contact-box{
         margin-top: 25px;
         margin-bottom: 50px;
     }
-    .review-preview{
-        padding: 100px 10% 75px; 
-    }
-    .contact-preview{
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
+
 }
 
 @media (max-width:991px){
-    .reviews{
+    .reviews-content{
         padding: 0 8%;
     }
     .features{
         padding: 100px 20% 0; 
     }
-    .review-preview{
-        padding: 100px 20% 75px; 
-    }
-
     .about-content {
         padding: 0 30% 0 10%;
         display:table;    
@@ -228,8 +165,8 @@
 
 
 @media (max-width:850px) {
-    .welcome-box{
-        margin: 50px 8% 0px;
+    .land-section{
+        padding: 50px 9% 0;
     }
     .slogan-text{
         font-size: 4rem;
@@ -243,11 +180,10 @@
     .features-icon {
         margin-bottom: 20px;
     }
-    .review-preview{
-        padding: 75px 15% 75px; 
-    }
-    .logo2{
+    .logo{
+        position: inherit;
         display: inline-block;
+        margin-top: 75px;
     }
     .about-text-box{
         margin-bottom: 40px;
@@ -266,16 +202,19 @@
 
 
 @media (max-width:640px){
+    .land-section{
+        padding: 50px 7% 0;
+    }
+    .welcome-box{
+        text-align: center;
+    }
     .contact-form{
         width: auto;
     }
-    .container-fluid {
-        padding: 100px 7% 75px; 
-    }
-    .content-page {
+    .reviews-content {
         padding: 0 7%; 
     }
-    .contact-p {
+    .contact-box {
         padding-left: 7%; 
         padding-right: 7%; 
     }
@@ -288,16 +227,13 @@
     .features{
         padding: 75px 10% 25px; 
     }
-    .review-preview{
-        padding: 75px 7% 75px; 
-    }
     .about-content{
-        padding: 30px 10% 0 10%;
+        padding: 30px 10% 0;
     }
     .about-img{
         max-width: 100%;
     }
-    #products {
+    .products-content {
         text-align: center;
         padding: 30px 5% 0;
     }
@@ -310,13 +246,24 @@
 
 
 @media (max-width:550px) {
-
+    .land-section{
+        padding: 20px 3% 30px;
+    }
+    .slogan-text{
+        line-height: 4rem;
+        font-size: 3rem;
+    }
+    .welcome-img{
+        position: inherit;
+        display: inline-block;
+        width: 80%;
+        margin: 0 10%;
+    }
     .about-link1{
         padding-top: 1em;
         display: block;
         padding-bottom: 1em;
     } 
-    
     .about-link2 {
         display: block;
         padding-top: 1em;
@@ -332,19 +279,11 @@
         padding-top: 8%;
     
     }
-    .welcome-box{
-        text-align: center;
-        margin: 20px 3% 0px;
+    .logo{
+        width: 80%;
+        margin: 75px 10% 0;
     }
-    .slogan-text{
-        line-height: 4rem;
-        font-size: 3rem;
-    }
-    .welcome-img2{
-        display: inline-block;
-    }
-    .logo2{
-        width: 90%;
-        margin: 75px 5% 0;
+    .about-content{
+        padding: 30px 7% 0;
     }
 }
