@@ -1,4 +1,4 @@
-# Serendipity Storage Demo
+# Serendipity Storage - Demo
 
 This is a demo website for Serendipity Storage, a storage cabinet supplying business. 
 
