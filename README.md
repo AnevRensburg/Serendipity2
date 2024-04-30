@@ -10,4 +10,4 @@ My approach avoids the use of website generators like WordPress and CMS platform
 
 **After some changes, the website went live in February 2023 and is currently in use:**
 
-[Live Website](https://serendipitystorage.co.za/)
+[Repo](https://github.com/AnevRensburg/serendipity-storage) | [Live Website](https://serendipitystorage.co.za/)
